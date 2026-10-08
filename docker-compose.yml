@@ -10,7 +10,7 @@ services:
     env_file:
       - .env
     environment:
-      DATA_DIR: /app/data
+      # DATA_DIR: /app/data
       PORT: "20128"
       HOSTNAME: "0.0.0.0"
       NODE_ENV: production
